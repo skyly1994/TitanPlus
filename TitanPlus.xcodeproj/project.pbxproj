@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594D8C2B1D87B8810017125B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D8C2A1D87B8810017125B /* main.m */; };
+		594D8C2E1D87B8810017125B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D8C2D1D87B8810017125B /* AppDelegate.m */; };
+		594D8C311D87B8810017125B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D8C301D87B8810017125B /* ViewController.m */; };
+		594D8C341D87B8810017125B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594D8C321D87B8810017125B /* Main.storyboard */; };
+		594D8C361D87B8810017125B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594D8C351D87B8810017125B /* Assets.xcassets */; };
+		594D8C391D87B8810017125B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594D8C371D87B8810017125B /* LaunchScreen.storyboard */; };
+		594D8C441D87B8820017125B /* TitanPlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D8C431D87B8820017125B /* TitanPlusTests.m */; };
+		594D8C4F1D87B8820017125B /* TitanPlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D8C4E1D87B8820017125B /* TitanPlusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594D8C401D87B8820017125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594D8C1E1D87B8810017125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594D8C251D87B8810017125B;
+			remoteInfo = TitanPlus;
+		};
+		594D8C4B1D87B8820017125B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594D8C1E1D87B8810017125B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594D8C251D87B8810017125B;
+			remoteInfo = TitanPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594D8C261D87B8810017125B /* TitanPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitanPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D8C2A1D87B8810017125B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594D8C2C1D87B8810017125B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		594D8C2D1D87B8810017125B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		594D8C2F1D87B8810017125B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		594D8C301D87B8810017125B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		594D8C331D87B8810017125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594D8C351D87B8810017125B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594D8C381D87B8810017125B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594D8C3A1D87B8810017125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D8C3F1D87B8820017125B /* TitanPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D8C431D87B8820017125B /* TitanPlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanPlusTests.m; sourceTree = "<group>"; };
+		594D8C451D87B8820017125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594D8C4A1D87B8820017125B /* TitanPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D8C4E1D87B8820017125B /* TitanPlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitanPlusUITests.m; sourceTree = "<group>"; };
+		594D8C501D87B8820017125B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594D8C231D87B8810017125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D8C3C1D87B8820017125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D8C471D87B8820017125B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594D8C1D1D87B8810017125B = {
+			isa = PBXGroup;
+			children = (
+				594D8C281D87B8810017125B /* TitanPlus */,
+				594D8C421D87B8820017125B /* TitanPlusTests */,
+				594D8C4D1D87B8820017125B /* TitanPlusUITests */,
+				594D8C271D87B8810017125B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594D8C271D87B8810017125B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594D8C261D87B8810017125B /* TitanPlus.app */,
+				594D8C3F1D87B8820017125B /* TitanPlusTests.xctest */,
+				594D8C4A1D87B8820017125B /* TitanPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594D8C281D87B8810017125B /* TitanPlus */ = {
+			isa = PBXGroup;
+			children = (
+				594D8C2C1D87B8810017125B /* AppDelegate.h */,
+				594D8C2D1D87B8810017125B /* AppDelegate.m */,
+				594D8C2F1D87B8810017125B /* ViewController.h */,
+				594D8C301D87B8810017125B /* ViewController.m */,
+				594D8C321D87B8810017125B /* Main.storyboard */,
+				594D8C351D87B8810017125B /* Assets.xcassets */,
+				594D8C371D87B8810017125B /* LaunchScreen.storyboard */,
+				594D8C3A1D87B8810017125B /* Info.plist */,
+				594D8C291D87B8810017125B /* Supporting Files */,
+			);
+			path = TitanPlus;
+			sourceTree = "<group>";
+		};
+		594D8C291D87B8810017125B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594D8C2A1D87B8810017125B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		594D8C421D87B8820017125B /* TitanPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				594D8C431D87B8820017125B /* TitanPlusTests.m */,
+				594D8C451D87B8820017125B /* Info.plist */,
+			);
+			path = TitanPlusTests;
+			sourceTree = "<group>";
+		};
+		594D8C4D1D87B8820017125B /* TitanPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594D8C4E1D87B8820017125B /* TitanPlusUITests.m */,
+				594D8C501D87B8820017125B /* Info.plist */,
+			);
+			path = TitanPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594D8C251D87B8810017125B /* TitanPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D8C531D87B8820017125B /* Build configuration list for PBXNativeTarget "TitanPlus" */;
+			buildPhases = (
+				594D8C221D87B8810017125B /* Sources */,
+				594D8C231D87B8810017125B /* Frameworks */,
+				594D8C241D87B8810017125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TitanPlus;
+			productName = TitanPlus;
+			productReference = 594D8C261D87B8810017125B /* TitanPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594D8C3E1D87B8820017125B /* TitanPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D8C561D87B8820017125B /* Build configuration list for PBXNativeTarget "TitanPlusTests" */;
+			buildPhases = (
+				594D8C3B1D87B8820017125B /* Sources */,
+				594D8C3C1D87B8820017125B /* Frameworks */,
+				594D8C3D1D87B8820017125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594D8C411D87B8820017125B /* PBXTargetDependency */,
+			);
+			name = TitanPlusTests;
+			productName = TitanPlusTests;
+			productReference = 594D8C3F1D87B8820017125B /* TitanPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594D8C491D87B8820017125B /* TitanPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594D8C591D87B8820017125B /* Build configuration list for PBXNativeTarget "TitanPlusUITests" */;
+			buildPhases = (
+				594D8C461D87B8820017125B /* Sources */,
+				594D8C471D87B8820017125B /* Frameworks */,
+				594D8C481D87B8820017125B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594D8C4C1D87B8820017125B /* PBXTargetDependency */,
+			);
+			name = TitanPlusUITests;
+			productName = TitanPlusUITests;
+			productReference = 594D8C4A1D87B8820017125B /* TitanPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594D8C1E1D87B8810017125B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陆斌";
+				TargetAttributes = {
+					594D8C251D87B8810017125B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					594D8C3E1D87B8820017125B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 594D8C251D87B8810017125B;
+					};
+					594D8C491D87B8820017125B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 594D8C251D87B8810017125B;
+					};
+				};
+			};
+			buildConfigurationList = 594D8C211D87B8810017125B /* Build configuration list for PBXProject "TitanPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594D8C1D1D87B8810017125B;
+			productRefGroup = 594D8C271D87B8810017125B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594D8C251D87B8810017125B /* TitanPlus */,
+				594D8C3E1D87B8820017125B /* TitanPlusTests */,
+				594D8C491D87B8820017125B /* TitanPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594D8C241D87B8810017125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D8C391D87B8810017125B /* LaunchScreen.storyboard in Resources */,
+				594D8C361D87B8810017125B /* Assets.xcassets in Resources */,
+				594D8C341D87B8810017125B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D8C3D1D87B8820017125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D8C481D87B8820017125B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594D8C221D87B8810017125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D8C311D87B8810017125B /* ViewController.m in Sources */,
+				594D8C2E1D87B8810017125B /* AppDelegate.m in Sources */,
+				594D8C2B1D87B8810017125B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D8C3B1D87B8820017125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D8C441D87B8820017125B /* TitanPlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594D8C461D87B8820017125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594D8C4F1D87B8820017125B /* TitanPlusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594D8C411D87B8820017125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594D8C251D87B8810017125B /* TitanPlus */;
+			targetProxy = 594D8C401D87B8820017125B /* PBXContainerItemProxy */;
+		};
+		594D8C4C1D87B8820017125B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594D8C251D87B8810017125B /* TitanPlus */;
+			targetProxy = 594D8C4B1D87B8820017125B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594D8C321D87B8810017125B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594D8C331D87B8810017125B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594D8C371D87B8810017125B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594D8C381D87B8810017125B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594D8C511D87B8820017125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594D8C521D87B8820017125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594D8C541D87B8820017125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TitanPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TitanPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		594D8C551D87B8820017125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TitanPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TitanPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		594D8C571D87B8820017125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TitanPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TitanPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TitanPlus.app/TitanPlus";
+			};
+			name = Debug;
+		};
+		594D8C581D87B8820017125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TitanPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TitanPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TitanPlus.app/TitanPlus";
+			};
+			name = Release;
+		};
+		594D8C5A1D87B8820017125B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TitanPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TitanPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TitanPlus;
+			};
+			name = Debug;
+		};
+		594D8C5B1D87B8820017125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TitanPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sky.TitanPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TitanPlus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594D8C211D87B8810017125B /* Build configuration list for PBXProject "TitanPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D8C511D87B8820017125B /* Debug */,
+				594D8C521D87B8820017125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594D8C531D87B8820017125B /* Build configuration list for PBXNativeTarget "TitanPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D8C541D87B8820017125B /* Debug */,
+				594D8C551D87B8820017125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		594D8C561D87B8820017125B /* Build configuration list for PBXNativeTarget "TitanPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D8C571D87B8820017125B /* Debug */,
+				594D8C581D87B8820017125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		594D8C591D87B8820017125B /* Build configuration list for PBXNativeTarget "TitanPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594D8C5A1D87B8820017125B /* Debug */,
+				594D8C5B1D87B8820017125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594D8C1E1D87B8810017125B /* Project object */;
+}
